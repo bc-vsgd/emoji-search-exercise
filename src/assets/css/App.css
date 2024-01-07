@@ -1,0 +1,15 @@
+@import "./reset.css";
+
+.emoji-line span:last-child {
+  color: white;
+}
+.emoji-line:hover {
+  cursor: pointer;
+  color: blue;
+}
+.emoji-line:hover span:last-child {
+  color: black;
+}
+/* footer:hover {
+  cursor: pointer;
+} */
