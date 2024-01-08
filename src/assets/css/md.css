@@ -1,0 +1,50 @@
+/* STYLE RULES FOR OVER 992 PX WIDTH SCREENS */
+
+@media (min-width: 992px) {
+  /* HEADER */
+  /* HEADER */
+
+  header {
+    margin: 40px 0;
+  }
+  header div {
+    width: 500px;
+    font-size: 48px;
+  }
+
+  /* SEARCH BAR */
+  /* SEARCH BAR */
+
+  .search-bar {
+    width: 650px;
+    margin: 0 auto;
+  }
+  .search-bar input {
+    font-size: 18px;
+  }
+
+  /* EMOJIS DISPLAY & LINES */
+  /* EMOJIS DISPLAY & LINES */
+
+  .emoji-display {
+    width: 968px;
+    margin: 0 auto;
+  }
+  .emoji-line {
+    height: 60px;
+  }
+  .emoji-line div:first-child {
+    font-size: 25px;
+  }
+
+  /* FOOTER */
+  /* FOOTER */
+
+  footer div {
+    font-size: 15px;
+    width: 500px;
+  }
+  footer img {
+    height: 25px;
+  }
+}

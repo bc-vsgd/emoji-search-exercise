@@ -6,13 +6,14 @@ const EmojiLine = (props) => {
     <div
       className="emoji-line"
       onClick={async () => {
-        console.log("Coucou");
         await copyToClipboard(emoji.symbol);
       }}
     >
-      <span>{emoji.symbol}</span>
-      <span>{emoji.title}</span>
-      <span className="invisible">Click to copy !</span>
+      <div>
+        <span>{emoji.symbol}</span>
+        <span>{emoji.title}</span>
+      </div>
+      <div className="invisible">Click to copy !</div>
     </div>
   );
 };

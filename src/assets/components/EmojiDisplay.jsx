@@ -11,7 +11,7 @@ const EmojiDisplay = (props) => {
     emojisToDisplay.push(emojis[i]);
   }
   return (
-    <div>
+    <div className="emoji-display">
       {emojisToDisplay.map((emoji, ind) => {
         return <EmojiLine emoji={emoji} key={ind} />;
       })}

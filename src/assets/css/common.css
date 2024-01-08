@@ -1,0 +1,87 @@
+/* COMMON STYLE RULES */
+
+/* COMMON */
+/* COMMON */
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+.container {
+  margin: 0 auto;
+}
+
+/* HEADER */
+/* HEADER */
+
+header div {
+  font-weight: 500;
+  text-align: center;
+}
+
+/* SEARCH BAR */
+/* SEARCH BAR */
+
+.search-bar input {
+  background-color: #f7efef;
+  width: 100%;
+  border: none;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* EMOJIS DISPLAY & LINES */
+/* EMOJIS DISPLAY & LINES */
+
+.emoji-display {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.emoji-line {
+  background-color: rgb(252, 251, 251);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px 0 10px;
+}
+.emoji-line div:first-child {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.emoji-line div:nth-child(2) {
+  font-size: 15px;
+  color: rgb(252, 251, 251);
+}
+
+/* HOVER */
+
+.emoji-line:hover {
+  background-color: #f7efef;
+  cursor: pointer;
+}
+.emoji-line:hover div:nth-child(2) {
+  color: black;
+}
+
+/* FOOTER */
+/* FOOTER */
+
+footer {
+  margin: 90px 0 80px 0;
+}
+footer div,
+footer a {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  align-items: center;
+}
+footer div {
+  margin: 0 auto;
+}

@@ -1,5 +1,9 @@
 const Header = () => {
-  return <header>Find an emoji !</header>;
+  return (
+    <header>
+      <div className="container">🔥 Find an Emoji ! 🔥</div>
+    </header>
+  );
 };
 
 export default Header;
