@@ -11,7 +11,9 @@ Learnings:
 
 - `onChange` event and `state` use in the search bar, to change emojis list diplay at each letter input.
 - Research matching emojis from keywords lists associated with each emoji.
-- `navigator.clipboard.writeText` function use to copy the emojis to the clipboard.
+- `navigator.clipboard.writeText` function to copy the emojis to the clipboard.
+
+Watch the result on [Netlify](https://tubular-pithivier-56e25f.netlify.app/).
 
 ## React + Vite
 
