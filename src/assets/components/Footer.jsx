@@ -1,11 +1,8 @@
 // Img
 import logo_react from "../img/logo_react.png";
-import logo_reacteur from "../img/Logo_Reacteur.avif";
+import logo_reacteur from "../img/logo_reacteur.png";
 import logo_github from "../img/logo_github.png";
 import logo_linkedin from "../img/logo_linkedin.png";
-// Icons
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// <i class="fa-brands fa-linkedin"></i>
 
 const Footer = () => {
   return (
@@ -21,7 +18,7 @@ const Footer = () => {
         </a>
         <span>at</span>
         <a href="https://www.lereacteur.io/" target="_blank">
-          <img src={logo_reacteur} className="circle-img" alt="Logo Reacteur" />
+          <img src={logo_reacteur} alt="Reacteur" />
           Le Reacteur
         </a>
         <span>by</span>
